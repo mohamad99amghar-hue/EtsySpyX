@@ -1,0 +1,15 @@
+
+{
+  "name": "etsyspypro-x",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm -r --parallel run dev",
+    "build": "pnpm -r run build",
+    "db:push": "pnpm --filter api run db:push",
+    "db:studio": "pnpm --filter api run db:studio"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
